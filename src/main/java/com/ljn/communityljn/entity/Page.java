@@ -16,7 +16,7 @@ public class Page {
     private int current = 1;
     // 显示上限
     private int limit = 10;
-    // 数据总数(用于计算总页数)
+    // 数据总数(用于计算总页数),使用末尾
     private int rows;
     // 查询路径(用于复用分页链接)
     private String path;
