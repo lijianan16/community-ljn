@@ -81,7 +81,7 @@
         </filter>
     </appender>
 
-    <logger name="com.uestc.community" level="debug"/>
+    <logger name="com.ljn.communityljn" level="debug"/>
 
     <root level="info">
         <appender-ref ref="FILE_ERROR"/>

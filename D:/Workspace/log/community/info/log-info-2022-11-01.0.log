@@ -1,0 +1,33 @@
+2022-11-01 09:51:45,863 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-01 10:23:55,948 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 46318 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 10:23:55,950 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 10:25:50,766 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 46436 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 10:25:50,767 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 10:26:10,428 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 46459 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 10:26:10,430 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 10:26:10,586 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:61] Started MailTest in 0.472 seconds (JVM running for 1.185)
+2022-11-01 10:43:41,075 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 47434 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 10:43:41,077 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 10:43:41,259 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:61] Started MailTest in 0.558 seconds (JVM running for 1.313)
+2022-11-01 11:05:43,012 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 48231 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 11:05:43,014 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 11:06:25,065 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 48274 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 11:06:25,067 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 11:10:28,822 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 48503 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 11:10:28,824 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 11:10:31,285 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-01 11:10:31,405 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-01 11:10:31,659 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:61] Started MailTest in 3.241 seconds (JVM running for 4.062)
+2022-11-01 11:10:32,969 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-01 11:14:33,244 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 48718 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 11:14:33,246 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 11:14:35,118 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-01 11:14:35,240 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-01 11:14:35,574 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:61] Started MailTest in 2.853 seconds (JVM running for 3.658)
+2022-11-01 11:14:37,478 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-01 14:38:29,399 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:55] Starting MailTest on lideMacBook-Pro.local with PID 50801 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-01 14:38:29,401 INFO [main] c.l.c.MailTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-01 14:38:32,030 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-01 14:38:32,152 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-01 14:38:32,440 INFO [main] c.l.c.MailTest [StartupInfoLogger.java:61] Started MailTest in 3.633 seconds (JVM running for 4.717)
+2022-11-01 14:38:34,414 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
