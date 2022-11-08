@@ -1,11 +1,8 @@
 package com.ljn.communityljn;
 
-import com.ljn.communityljn.dao.DiscussPostMapper;
 import com.ljn.communityljn.dao.LoginTicketMapper;
-import com.ljn.communityljn.dao.UserMapper;
-import com.ljn.communityljn.entity.DiscussPost;
 import com.ljn.communityljn.entity.LoginTicket;
-import com.ljn.communityljn.entity.User;
+import com.ljn.communityljn.utils.SensitiveFilter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +11,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Date;
-import java.util.List;
 
 /**
  * @Author li
@@ -32,7 +28,8 @@ public class MapperTest{
     @Autowired
     private LoginTicketMapper loginTicketMapper;
 
-
+    @Autowired
+    private SensitiveFilter sensitiveFilter;
 
     @org.junit.Test
     public void testInsertLoginTicket() {
@@ -53,6 +50,13 @@ public class MapperTest{
         loginTicketMapper.updateStatus("abc", 1);
         loginTicket = loginTicketMapper.selectByTicket("abc");
         System.out.println(loginTicket);
+    }
+
+    @Test
+    public void testsensitive(){
+        String text = "这里可以嫖娼，赌博，哈哈哈";
+        text = sensitiveFilter.filter(text);
+        System.out.println(text);
     }
 
 }

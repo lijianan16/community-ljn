@@ -1,0 +1,268 @@
+2022-11-06 10:27:00,519 INFO [Thread-9] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 10:27:00,588 INFO [Thread-9] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-06 10:27:00,617 INFO [Thread-9] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-06 10:27:02,578 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 12104 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 10:27:02,578 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 10:27:03,114 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 10:27:03,115 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 10:27:03,116 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 10:27:03,116 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 10:27:03,136 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 10:27:03,137 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 554 ms
+2022-11-06 10:27:03,339 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-11-06 10:27:03,364 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-06 10:27:04,946 INFO [main] c.l.c.MapperTest [StartupInfoLogger.java:55] Starting MapperTest on lideMacBook-Pro.local with PID 24630 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 10:27:04,947 INFO [main] c.l.c.MapperTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 10:27:07,660 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-06 10:30:26,561 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 12104 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 10:30:26,562 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 10:30:27,499 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 10:30:27,500 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 10:30:27,501 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 10:30:27,501 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 10:30:27,521 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 10:30:27,522 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 947 ms
+2022-11-06 10:30:27,747 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-11-06 10:30:27,756 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-06 10:33:13,345 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 12104 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 10:33:13,346 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 10:33:13,732 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 10:33:13,732 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 10:33:13,732 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 10:33:13,733 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 10:33:13,741 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 10:33:13,741 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 391 ms
+2022-11-06 10:33:13,820 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-11-06 10:33:13,825 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-06 10:33:47,289 INFO [main] c.l.c.MapperTest [StartupInfoLogger.java:55] Starting MapperTest on lideMacBook-Pro.local with PID 25013 (started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 10:33:47,290 INFO [main] c.l.c.MapperTest [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 10:33:49,051 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-06 10:39:46,767 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 12104 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 10:39:46,767 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 10:39:47,006 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 10:39:47,007 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 10:39:47,008 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 10:39:47,008 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 10:39:47,018 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 10:39:47,020 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 251 ms
+2022-11-06 10:39:47,110 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-11-06 10:39:47,117 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-06 11:05:30,020 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 12104 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 11:05:30,022 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 11:05:30,362 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 11:05:30,364 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 11:05:30,364 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 11:05:30,364 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 11:05:30,378 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 11:05:30,379 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 352 ms
+2022-11-06 11:05:30,660 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 11:05:30,700 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 11:05:30,804 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 11:05:30,823 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 11:05:30,840 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 11:05:30,841 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 0.937 seconds (JVM running for 15170.797)
+2022-11-06 11:05:30,852 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-11-06 15:01:56,782 INFO [Thread-17] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:01:57,850 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 12104 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:01:57,850 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:01:58,185 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:01:58,185 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:01:58,186 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:01:58,186 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:01:58,200 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:01:58,200 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 347 ms
+2022-11-06 15:01:58,349 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:01:58,375 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:01:58,450 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:01:58,468 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:01:58,471 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:01:58,471 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 0.88 seconds (JVM running for 17144.407)
+2022-11-06 15:01:58,473 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-11-06 15:02:01,129 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:02:03,702 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 28771 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:02:03,704 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:02:03,747 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 15:02:03,748 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 15:02:05,026 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:02:05,037 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:02:05,038 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:02:05,038 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:02:05,123 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:02:05,123 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1375 ms
+2022-11-06 15:02:05,647 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:02:05,708 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:02:05,815 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:02:05,837 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:02:05,870 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:02:05,874 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.57 seconds (JVM running for 3.215)
+2022-11-06 15:02:46,647 INFO [http-nio-8080-exec-2] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-06 15:02:46,647 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-06 15:02:46,654 INFO [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:02:46,655 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:02:46,664 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
+2022-11-06 15:03:05,792 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-06 15:03:06,049 INFO [http-nio-8080-exec-4] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-06 15:17:08,890 INFO [Thread-10] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:17:08,894 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-06 15:17:08,912 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-06 15:17:09,432 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 28771 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:17:09,433 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:17:09,795 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:17:09,796 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:17:09,796 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:17:09,796 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:17:09,807 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:17:09,807 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 372 ms
+2022-11-06 15:17:09,995 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:17:10,017 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:17:10,072 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:17:10,087 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:17:10,089 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:17:10,090 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 0.894 seconds (JVM running for 907.445)
+2022-11-06 15:17:10,092 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-11-06 15:27:26,730 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:27:26,739 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:27:26,781 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 42 ms
+2022-11-06 15:27:26,806 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-2 - Starting...
+2022-11-06 15:27:26,852 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2022-11-06 15:28:57,509 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:28:57,517 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-2 - Shutdown initiated...
+2022-11-06 15:28:57,527 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-2 - Shutdown completed.
+2022-11-06 15:31:28,856 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 30333 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:31:28,859 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:31:28,893 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 15:31:28,893 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 15:31:29,939 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:31:29,946 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:31:29,947 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:31:29,947 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:31:30,021 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:31:30,022 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1129 ms
+2022-11-06 15:31:30,558 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:31:30,622 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:31:30,775 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:31:30,804 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:31:30,841 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:31:30,846 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.337 seconds (JVM running for 2.992)
+2022-11-06 15:31:39,403 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-06 15:31:39,415 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:31:39,416 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:31:39,425 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
+2022-11-06 15:31:39,505 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-06 15:31:39,706 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-06 15:46:21,731 INFO [Thread-9] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:46:21,741 INFO [Thread-9] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-06 15:46:21,760 INFO [Thread-9] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-06 15:46:22,436 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 30333 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:46:22,437 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:46:22,719 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:46:22,720 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:46:22,720 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:46:22,721 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:46:22,728 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:46:22,728 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 289 ms
+2022-11-06 15:46:22,858 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:46:22,873 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:46:22,921 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:46:22,936 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:46:22,939 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:46:22,939 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 0.863 seconds (JVM running for 895.084)
+2022-11-06 15:46:22,941 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-11-06 15:46:27,825 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:46:30,532 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 31150 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:46:30,535 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:46:30,576 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 15:46:30,576 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 15:46:31,609 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:46:31,618 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:46:31,618 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:46:31,619 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:46:31,681 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:46:31,682 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1106 ms
+2022-11-06 15:46:32,140 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:46:32,185 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:46:32,277 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:46:32,298 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:46:32,326 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:46:32,329 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.114 seconds (JVM running for 2.619)
+2022-11-06 15:55:32,886 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:55:34,663 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 31621 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 15:55:34,665 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 15:55:34,705 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 15:55:34,706 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 15:55:35,601 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 15:55:35,608 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:55:35,609 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 15:55:35,609 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 15:55:35,662 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:55:35,662 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 956 ms
+2022-11-06 15:55:36,168 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 15:55:36,222 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 15:55:36,337 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 15:55:36,361 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 15:55:36,394 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 15:55:36,398 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.046 seconds (JVM running for 2.807)
+2022-11-06 15:55:42,090 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-06 15:55:42,095 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:55:42,096 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:55:42,101 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 5 ms
+2022-11-06 15:55:42,129 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-06 15:55:42,245 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-06 16:34:37,772 INFO [Thread-10] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 16:34:37,794 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-06 16:34:37,802 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-06 16:34:39,222 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 31621 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 16:34:39,223 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 16:34:40,112 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 16:34:40,113 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 16:34:40,114 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 16:34:40,114 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 16:34:40,132 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 16:34:40,132 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 903 ms
+2022-11-06 16:34:40,440 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 16:34:40,476 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 16:34:40,597 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 16:34:40,620 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 16:34:40,625 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 16:34:40,626 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 1.725 seconds (JVM running for 2347.14)
+2022-11-06 16:34:40,630 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2022-11-06 16:39:46,916 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-06 16:39:49,790 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 34047 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-06 16:39:49,793 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-06 16:39:49,833 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-06 16:39:49,833 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-06 16:39:50,919 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-06 16:39:50,931 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-06 16:39:50,932 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-06 16:39:50,933 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-06 16:39:51,016 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-06 16:39:51,018 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1184 ms
+2022-11-06 16:39:51,643 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-06 16:39:51,710 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-06 16:39:51,847 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-06 16:39:51,878 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-06 16:39:51,915 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-06 16:39:51,919 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.515 seconds (JVM running for 3.135)
+2022-11-06 16:40:07,843 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-06 16:40:07,858 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 16:40:07,858 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-06 16:40:07,881 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 23 ms
+2022-11-06 16:40:07,950 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-06 16:40:08,145 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.

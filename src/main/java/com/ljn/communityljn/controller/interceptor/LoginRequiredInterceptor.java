@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
  * @Author li
  * @Date 11/5/22 10:30 AM
  * @Version 1.0
- * 描述 ：登录状态拦截器
+ * 描述 ：登录状态拦截器,检查登录状态
  * 名称：LoginRequiredInterceptor
  */
 @Component
