@@ -1,19 +1,17 @@
-2022-11-08 00:08:22,289 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m1s5ms).
-2022-11-08 01:46:16,532 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m23s892ms).
-2022-11-08 03:48:26,570 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s245ms).
-2022-11-08 05:48:54,938 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s328ms).
-2022-11-08 07:49:51,663 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s759ms).
-2022-11-08 08:31:12,431 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m50s765ms).
-2022-11-08 08:33:02,252 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s798ms).
-2022-11-08 08:45:05,467 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m33s202ms).
-2022-11-08 08:49:57,100 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s491ms).
-2022-11-08 09:43:27,244 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
-2022-11-08 10:58:20,305 WARN [http-nio-8080-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
-2022-11-08 11:00:38,165 WARN [http-nio-8080-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
-2022-11-08 11:01:51,073 WARN [http-nio-8080-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NumberFormatException: For input string: "abc"]
-2022-11-08 11:49:40,912 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m19s419ms).
-2022-11-08 12:07:20,349 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s346ms).
-2022-11-08 12:24:22,459 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s113ms).
-2022-11-08 13:21:15,007 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m22s556ms).
-2022-11-08 15:10:48,815 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h49m3s796ms).
-2022-11-08 15:25:48,695 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:779] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s815ms), soft-evicting connections from pool.
+2022-11-12 01:29:10,054 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22s145ms).
+2022-11-12 03:29:38,323 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s230ms).
+2022-11-12 05:30:35,894 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s418ms).
+2022-11-12 07:31:31,534 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s636ms).
+2022-11-12 09:56:14,695 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24m13s134ms).
+2022-11-12 10:11:59,448 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m14s691ms).
+2022-11-12 10:34:59,720 WARN [http-nio-8080-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'ticket' for method parameter of type String]
+2022-11-12 10:57:58,206 WARN [http-nio-8080-exec-4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.bind.MissingRequestCookieException: Missing cookie 'kaptchaOwner' for method parameter of type String]
+2022-11-12 11:30:21,141 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m19s404ms).
+2022-11-12 11:47:35,753 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m44s563ms).
+2022-11-12 12:07:29,750 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m23s960ms).
+2022-11-12 13:13:33,023 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m33s250ms).
+2022-11-12 13:28:00,899 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m27s859ms).
+2022-11-12 13:44:40,857 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m39s958ms).
+2022-11-12 14:09:26,743 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m15s862ms).
+2022-11-12 15:04:45,114 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s611ms).
+2022-11-12 15:13:12,085 WARN [http-nio-8080-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "my-post.html"]

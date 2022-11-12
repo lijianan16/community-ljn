@@ -1,0 +1,62 @@
+2022-11-08 00:08:22,289 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m1s5ms).
+2022-11-08 01:46:16,532 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m23s892ms).
+2022-11-08 03:48:26,570 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s245ms).
+2022-11-08 05:48:54,938 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s328ms).
+2022-11-08 07:49:51,663 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s759ms).
+2022-11-08 08:31:12,431 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m50s765ms).
+2022-11-08 08:33:02,252 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s798ms).
+2022-11-08 08:45:05,467 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m33s202ms).
+2022-11-08 08:49:57,100 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s491ms).
+2022-11-08 09:43:27,244 WARN [restartedMain] o.a.t.u.m.Registry [DirectJDKLog.java:173] The MBean registry cannot be disabled because it has already been initialised
+2022-11-08 10:58:20,305 WARN [http-nio-8080-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2022-11-08 11:00:38,165 WARN [http-nio-8080-exec-1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NullPointerException]
+2022-11-08 11:01:51,073 WARN [http-nio-8080-exec-8] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [java.lang.NumberFormatException: For input string: "abc"]
+2022-11-08 11:49:40,912 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m19s419ms).
+2022-11-08 12:07:20,349 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s346ms).
+2022-11-08 12:24:22,459 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m32s113ms).
+2022-11-08 13:21:15,007 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m22s556ms).
+2022-11-08 15:10:48,815 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h49m3s796ms).
+2022-11-08 15:25:48,695 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:779] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s815ms), soft-evicting connections from pool.
+2022-11-08 21:00:39,109 WARN [restartedMain] o.s.b.SpringApplication [SpringApplication.java:808] Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.ljn.communityljn.config.RedisConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7a8f82c7]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:743)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:742)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1604)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.ljn.communityljn.CommunityLjnApplication.main(CommunityLjnApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 30 common frames omitted

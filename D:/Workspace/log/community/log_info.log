@@ -1,302 +1,680 @@
-2022-11-08 09:43:25,395 INFO [Thread-10] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 09:43:25,473 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 09:43:25,485 INFO [Thread-10] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 09:43:26,778 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 54033 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 09:43:26,778 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 09:43:27,292 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 09:43:27,293 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 09:43:27,294 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 09:43:27,294 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 09:43:27,307 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 09:43:27,307 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 521 ms
-2022-11-08 09:43:27,544 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 09:43:27,567 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 09:43:27,631 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 09:43:27,655 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 09:43:27,658 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 09:43:27,660 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 0.948 seconds (JVM running for 6430.257)
-2022-11-08 09:43:27,662 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
-2022-11-08 09:48:22,006 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 09:48:24,928 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 60831 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 09:48:24,931 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 09:48:24,992 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 09:48:24,992 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 09:48:26,352 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 09:48:26,363 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 09:48:26,364 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 09:48:26,365 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 09:48:26,438 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 09:48:26,438 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1446 ms
-2022-11-08 09:48:27,065 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 09:48:27,141 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 09:48:27,257 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 09:48:27,282 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 09:48:27,312 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 09:48:27,316 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.858 seconds (JVM running for 3.616)
-2022-11-08 09:48:42,471 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 10:34:22,132 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 10:34:25,980 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 10:34:25,983 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 10:34:34,782 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 37730 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 10:34:34,786 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 10:34:34,923 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 10:34:34,923 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 10:34:35,820 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 10:34:35,823 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 10:34:35,863 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2022-11-12 10:34:36,255 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 10:34:36,804 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 10:34:36,816 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 10:34:36,817 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 10:34:36,817 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 10:34:36,915 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 10:34:36,916 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1993 ms
+2022-11-12 10:34:38,170 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 10:34:38,275 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 10:34:38,636 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 10:34:38,681 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 10:34:38,721 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 10:34:38,726 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 4.813 seconds (JVM running for 5.724)
+2022-11-12 10:34:59,626 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 09:48:42,478 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 09:48:42,478 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 09:48:42,486 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
-2022-11-08 09:53:26,792 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 09:53:30,438 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 61114 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 09:53:30,440 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 09:53:30,488 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 09:53:30,488 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 09:53:31,490 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 09:53:31,499 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 09:53:31,500 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 09:53:31,500 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 09:53:31,567 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 09:53:31,568 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1080 ms
-2022-11-08 09:53:32,177 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 09:53:32,258 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 09:53:32,362 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 09:53:32,388 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 09:53:32,424 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 09:53:32,428 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.333 seconds (JVM running for 2.902)
-2022-11-08 09:53:37,599 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 10:34:59,637 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 10:34:59,637 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 10:34:59,658 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 20 ms
+2022-11-12 10:35:08,622 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:08],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 10:35:08,674 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 10:35:08,872 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 10:35:08,965 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:08],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 10:35:08,991 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:08],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,004 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,142 INFO [http-nio-8080-exec-6] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 10:35:09,144 INFO [http-nio-8080-exec-6] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 10:35:09,286 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,291 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,294 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,300 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,303 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,308 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,311 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,315 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,318 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,323 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,326 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,330 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,332 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,341 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,346 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,352 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:09,355 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:09,361 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:09],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,347 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.login].
+2022-11-12 10:35:22,440 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:35:22,446 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,451 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 10:35:22,462 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 10:35:22,470 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,476 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,480 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,484 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,489 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,493 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,496 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,733 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,742 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,747 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,749 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,753 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,756 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,760 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,763 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,767 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,771 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,775 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:35:22,778 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:35:22,783 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:35:22],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:55:41,748 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 10:55:42,012 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 10:55:42,050 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 10:55:46,606 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 38864 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 10:55:46,609 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 10:55:46,647 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 10:55:46,648 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 10:55:47,178 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 10:55:47,180 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 10:55:47,202 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-11-12 10:55:47,456 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 10:55:47,753 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 10:55:47,759 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 10:55:47,760 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 10:55:47,760 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 10:55:47,814 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 10:55:47,815 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1167 ms
+2022-11-12 10:55:48,657 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 10:55:48,725 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 10:55:48,992 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 10:55:49,022 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 10:55:49,052 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 10:55:49,055 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.747 seconds (JVM running for 3.24)
+2022-11-12 10:56:11,962 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 09:53:37,605 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 09:53:37,605 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 09:53:37,613 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
-2022-11-08 09:53:37,680 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 09:53:37,933 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 10:08:24,290 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 10:08:24,300 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 10:08:24,334 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 10:08:28,497 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 61899 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 10:08:28,499 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 10:08:28,535 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 10:08:28,536 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 10:08:29,391 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 10:08:29,398 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 10:08:29,398 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 10:08:29,399 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 10:08:29,453 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 10:08:29,454 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 918 ms
-2022-11-08 10:08:29,923 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 10:08:29,976 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 10:08:30,082 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 10:08:30,108 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 10:08:30,144 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 10:08:30,147 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 1.952 seconds (JVM running for 2.482)
-2022-11-08 10:08:56,540 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 10:56:11,980 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 10:56:11,981 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 10:56:12,032 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 50 ms
+2022-11-12 10:56:12,068 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:56:12,100 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 10:56:12,312 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 10:56:12,387 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:12],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:56:12,409 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:12],访问了[com.ljn.communityljn.service.UserService.logout].
+2022-11-12 10:56:12,483 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:56:12,937 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:56:14,961 INFO [http-nio-8080-exec-6] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 10:56:14,963 INFO [http-nio-8080-exec-6] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 10:56:20,556 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:20],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:56:52,983 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:56:52],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:57:58,165 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:57:58],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:57:58,211 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:57:58],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:05,719 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:05],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:05,775 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:05],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:12,144 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:12,233 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:17,887 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:17],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:17,933 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:17],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:30,382 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:30],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:30,466 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:30],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:37,839 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:37],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:58:37,916 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:58:37],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:59:20,384 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 10:59:20,569 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 10:59:20,580 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 10:59:24,233 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 39064 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 10:59:24,235 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 10:59:24,285 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 10:59:24,285 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 10:59:24,823 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 10:59:24,825 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 10:59:24,847 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-11-12 10:59:25,094 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 10:59:25,387 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 10:59:25,394 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 10:59:25,395 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 10:59:25,395 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 10:59:25,448 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 10:59:25,448 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1163 ms
+2022-11-12 10:59:26,188 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 10:59:26,254 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 10:59:26,518 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 10:59:26,550 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 10:59:26,581 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 10:59:26,585 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.651 seconds (JVM running for 3.19)
+2022-11-12 10:59:31,414 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 10:08:56,546 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 10:08:56,546 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 10:08:56,552 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 6 ms
-2022-11-08 10:08:56,576 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 10:08:56,682 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 10:57:52,333 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 10:57:52,351 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 10:57:52,408 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 10:57:56,672 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 64570 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 10:57:56,675 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 10:57:56,719 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 10:57:56,720 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 10:57:57,640 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 10:57:57,647 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 10:57:57,648 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 10:57:57,648 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 10:57:57,696 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 10:57:57,696 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 976 ms
-2022-11-08 10:57:58,162 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 10:57:58,212 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 10:57:58,300 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 10:57:58,321 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 10:57:58,353 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 10:57:58,356 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.02 seconds (JVM running for 2.553)
-2022-11-08 10:58:04,099 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 10:59:31,420 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 10:59:31,421 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 10:59:31,430 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
+2022-11-12 10:59:31,448 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:31],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:59:31,468 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 10:59:31,603 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 10:59:32,109 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:32],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:59:33,931 INFO [http-nio-8080-exec-5] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 10:59:33,933 INFO [http-nio-8080-exec-5] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 10:59:38,235 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:59:38,298 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.login].
+2022-11-12 10:59:38,330 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 10:59:38,334 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,345 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 10:59:38,507 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 10:59:38,525 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,531 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,540 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,545 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,549 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,553 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,556 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,560 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,563 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,567 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,570 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,574 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,577 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,582 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,586 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,592 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,595 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,599 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 10:59:38,601 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 10:59:38,606 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 10:59:38],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:16,682 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 14:37:17,032 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 14:37:17,039 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 14:37:26,720 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 41206 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 14:37:26,723 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 14:37:26,771 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 14:37:26,771 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 14:37:27,630 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 14:37:27,633 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 14:37:27,671 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2022-11-12 14:37:28,008 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 14:37:28,585 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 14:37:28,601 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 14:37:28,602 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 14:37:28,602 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 14:37:28,727 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 14:37:28,728 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1956 ms
+2022-11-12 14:37:30,125 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 14:37:30,224 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 14:37:30,604 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 14:37:30,645 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 14:37:30,678 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 14:37:30,681 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 4.437 seconds (JVM running for 5.156)
+2022-11-12 14:37:44,819 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 10:58:04,105 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 10:58:04,105 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 10:58:04,110 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 5 ms
-2022-11-08 10:58:04,139 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 10:58:04,255 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 11:00:25,126 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 11:00:25,150 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 11:00:25,172 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 11:00:28,768 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 64708 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 11:00:28,771 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 11:00:28,806 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 11:00:28,807 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 11:00:29,677 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 11:00:29,686 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 11:00:29,686 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 11:00:29,687 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 11:00:29,742 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 11:00:29,743 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 936 ms
-2022-11-08 11:00:30,230 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 11:00:30,287 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 11:00:30,395 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 11:00:30,423 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 11:00:30,462 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 11:00:30,465 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.002 seconds (JVM running for 2.524)
-2022-11-08 11:00:37,918 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 14:37:44,826 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 14:37:44,826 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 14:37:44,837 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 11 ms
+2022-11-12 14:37:44,856 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:44],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:37:44,984 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 14:37:44,986 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 14:37:45,177 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 14:37:45,218 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 14:37:45,391 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 14:37:45,471 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 14:37:45,487 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,493 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,506 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,512 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,516 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,522 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,525 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,531 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,536 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,541 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,544 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,549 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,553 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,558 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,564 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,573 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,576 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,583 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:45,586 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:37:45,591 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:37:47,784 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:47],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:37:47,895 INFO [http-nio-8080-exec-10] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:37:47],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:01,071 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:01],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:01,203 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:01],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:10,487 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:10,495 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.login].
+2022-11-12 14:38:10,840 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:10,869 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,874 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 14:38:10,879 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 14:38:10,893 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,899 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,903 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,908 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,911 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,915 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,920 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,927 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,930 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,941 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,944 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,951 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,954 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,958 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,961 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,966 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,969 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,977 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:10,980 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:10,985 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:10],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 14:38:13,400 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:13,406 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:13,416 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:13,422 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 14:38:13,427 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 14:38:13,444 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 14:38:13,451 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:13],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 14:38:16,051 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 14:38:16,054 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:16,064 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:16,073 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 14:38:16,076 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.FollowService.findFollowees].
+2022-11-12 14:38:16,090 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 14:38:16,099 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 14:38:16],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:00:24,170 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:00:24,381 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 15:00:24,406 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 15:00:28,438 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 42391 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 15:00:28,441 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 15:00:28,480 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 15:00:28,480 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 15:00:29,067 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 15:00:29,069 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 15:00:29,090 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-11-12 15:00:29,329 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 15:00:29,699 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 15:00:29,708 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:00:29,709 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 15:00:29,709 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 15:00:29,773 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 15:00:29,773 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1293 ms
+2022-11-12 15:00:30,746 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:00:30,814 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 15:00:31,195 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 15:00:31,224 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:00:31,284 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 15:00:31,290 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 3.157 seconds (JVM running for 3.706)
+2022-11-12 15:00:54,132 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:00:57,715 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 42420 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 15:00:57,718 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 15:00:57,797 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 15:00:57,798 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 15:00:58,379 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 15:00:58,381 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 15:00:58,403 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-11-12 15:00:59,902 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 15:01:00,544 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 15:01:00,557 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:01:00,559 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 15:01:00,559 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 15:01:00,712 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 15:01:00,712 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2914 ms
+2022-11-12 15:01:33,456 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 42456 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 15:01:33,458 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 15:01:33,525 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 15:01:33,526 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 15:01:34,241 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 15:01:34,244 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 15:01:34,268 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-11-12 15:01:35,607 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 15:01:36,426 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 15:01:36,441 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:01:36,442 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 15:01:36,443 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 15:01:36,731 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 15:01:36,732 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3206 ms
+2022-11-12 15:01:38,144 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:01:38,270 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 15:01:38,619 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 15:01:38,651 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:01:38,695 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 15:01:38,701 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 5.624 seconds (JVM running for 6.424)
+2022-11-12 15:01:44,072 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 11:00:37,923 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 11:00:37,923 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 11:00:37,929 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 6 ms
-2022-11-08 11:00:37,961 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 11:00:38,073 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 11:01:09,692 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 11:01:09,694 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 11:01:09,699 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 11:01:12,157 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 64752 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 11:01:12,160 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 11:01:12,198 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 11:01:12,198 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 11:01:13,475 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 11:01:13,484 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 11:01:13,484 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 11:01:13,485 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 11:01:13,547 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 11:01:13,547 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1348 ms
-2022-11-08 11:01:14,064 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 11:01:14,128 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 11:01:14,224 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 11:01:14,245 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 11:01:14,272 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 11:01:14,276 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.429 seconds (JVM running for 2.999)
-2022-11-08 11:01:21,042 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 15:01:44,083 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 15:01:44,083 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 15:01:44,099 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 16 ms
+2022-11-12 15:01:44,140 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:44],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:01:44,312 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 15:01:44,314 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 15:01:44,604 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:44],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:01:52,242 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 15:01:52,439 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 15:01:52,612 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:52],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:01:52,631 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:52],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:01:52,645 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:52],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:01:52,657 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:52],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:01:52,661 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:01:52],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:01:52,794 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:01:52,922 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 15:01:52,932 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 15:02:04,475 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 42491 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 15:02:04,478 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 15:02:04,578 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 15:02:04,579 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 15:02:05,384 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 15:02:05,387 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 15:02:05,418 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2022-11-12 15:02:06,470 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 15:02:07,150 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 15:02:07,162 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:02:07,163 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 15:02:07,164 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 15:02:07,309 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 15:02:07,310 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2730 ms
+2022-11-12 15:02:08,523 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:02:08,641 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 15:02:08,987 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 15:02:09,019 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:02:09,062 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 15:02:09,068 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 5.099 seconds (JVM running for 6.072)
+2022-11-12 15:03:04,329 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 11:01:21,048 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 11:01:21,048 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 11:01:21,055 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
-2022-11-08 11:01:21,081 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 11:01:21,205 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 15:30:58,552 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:30:58,566 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 15:30:58,576 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 15:31:03,751 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 67262 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 15:31:03,754 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 15:31:03,816 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 15:31:03,816 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 15:31:05,387 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 15:31:05,397 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:31:05,398 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 15:31:05,398 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 15:31:05,467 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 15:31:05,467 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1651 ms
-2022-11-08 15:31:06,310 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:31:06,433 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 15:31:06,782 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 15:31:06,808 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:31:06,841 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 15:31:06,844 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 3.565 seconds (JVM running for 4.358)
-2022-11-08 15:31:18,444 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+2022-11-12 15:03:04,340 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 15:03:04,340 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 15:03:04,359 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 19 ms
+2022-11-12 15:03:04,435 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:03:04],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:03:04,661 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 15:03:04,665 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 15:03:05,027 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:03:05],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:03:05,084 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:03:05],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 15:03:05,147 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 15:03:05,401 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 15:03:05,497 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:03:05],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 15:03:05,521 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:03:05],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,129 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:04:45,135 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:04:45,139 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,143 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,170 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,178 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:04:45,195 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:04:45,203 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,216 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,218 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:04:45,225 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,225 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:04:45,232 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,242 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,246 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,250 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,253 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,269 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,273 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,277 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,281 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,285 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,288 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,299 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,310 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,321 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,326 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:04:45,340 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:04:45],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:04:45,792 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:04:45,925 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 15:04:45,947 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 15:05:44,896 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 42691 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 15:05:44,898 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 15:05:44,944 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 15:05:44,944 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 15:05:45,578 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 15:05:45,580 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 15:05:45,605 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-11-12 15:05:45,863 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 15:05:46,164 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 15:05:46,170 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:05:46,171 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 15:05:46,171 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 15:05:46,221 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 15:05:46,222 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1277 ms
+2022-11-12 15:05:47,069 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:05:47,137 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 15:05:47,390 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 15:05:47,418 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:05:47,447 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 15:05:47,450 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.857 seconds (JVM running for 3.374)
+2022-11-12 15:06:07,025 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-2022-11-08 15:31:18,452 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 15:31:18,453 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 15:31:18,471 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 17 ms
-2022-11-08 15:31:18,526 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 15:31:18,813 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 15:43:25,987 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:43:25,998 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 15:43:26,022 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 15:43:29,540 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 67920 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 15:43:29,542 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 15:43:29,579 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 15:43:29,580 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 15:43:30,584 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 15:43:30,591 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:43:30,591 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 15:43:30,592 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 15:43:30,657 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 15:43:30,658 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1078 ms
-2022-11-08 15:43:31,425 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:43:31,510 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 15:43:31,655 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 15:43:31,682 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:43:31,715 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 15:43:31,719 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.494 seconds (JVM running for 3.104)
-2022-11-08 15:44:19,885 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 15:44:19,886 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 15:44:19,896 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
-2022-11-08 15:44:19,944 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:19],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
-2022-11-08 15:44:19,983 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 15:44:20,166 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 15:44:20,229 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
-2022-11-08 15:44:20,260 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,269 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,274 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,278 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,283 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,286 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,291 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,295 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,302 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:44:20,306 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:44:20],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,274 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.login].
-2022-11-08 15:45:35,357 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
-2022-11-08 15:45:35,363 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,375 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
-2022-11-08 15:45:35,382 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
-2022-11-08 15:45:35,397 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,402 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,407 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,412 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,419 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,424 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,428 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,435 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,438 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:45:35,443 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[127.0.0.1],在[2022-11-08 15:45:35],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:49:51,024 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:49:51,027 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 15:49:51,038 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 15:49:54,933 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 68272 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 15:49:54,935 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 15:49:54,973 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 15:49:54,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 15:49:55,945 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 15:49:55,952 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:49:55,953 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 15:49:55,953 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 15:49:56,017 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 15:49:56,017 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1043 ms
-2022-11-08 15:49:56,554 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:49:56,614 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 15:49:56,741 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 15:49:56,769 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:49:56,799 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 15:49:56,802 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.164 seconds (JVM running for 2.855)
-2022-11-08 15:52:04,179 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-11-08 15:52:04,182 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
-2022-11-08 15:52:04,225 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 42 ms
-2022-11-08 15:52:04,266 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2022-11-08 15:52:04,429 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2022-11-08 15:52:04,492 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
-2022-11-08 15:52:04,498 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,544 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
-2022-11-08 15:52:04,565 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
-2022-11-08 15:52:04,572 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,582 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,588 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,596 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,601 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,610 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,616 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,622 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,628 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:04,635 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:53] 用户[127.0.0.1],在[2022-11-08 15:52:04],访问了[com.ljn.communityljn.service.UserService.findUserById].
-2022-11-08 15:52:37,967 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:52:37,976 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
-2022-11-08 15:52:37,988 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
-2022-11-08 15:52:42,856 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 68435 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
-2022-11-08 15:52:42,859 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
-2022-11-08 15:52:42,900 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-11-08 15:52:42,900 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-11-08 15:52:44,101 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
-2022-11-08 15:52:44,111 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:52:44,111 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2022-11-08 15:52:44,112 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-11-08 15:52:44,178 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2022-11-08 15:52:44,178 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1277 ms
-2022-11-08 15:52:44,780 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2022-11-08 15:52:44,842 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2022-11-08 15:52:44,972 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
-2022-11-08 15:52:44,996 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2022-11-08 15:52:45,023 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2022-11-08 15:52:45,026 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 2.505 seconds (JVM running for 3.25)
+2022-11-12 15:06:07,037 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 15:06:07,038 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 15:06:07,082 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 44 ms
+2022-11-12 15:06:07,116 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:06:07,249 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 15:06:07,252 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 15:06:07,493 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,528 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 15:06:07,571 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 15:06:07,759 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 15:06:07,850 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 15:06:07,871 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,878 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:07,893 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,898 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:07,904 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,910 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:07,918 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,934 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:07,957 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,961 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:07,967 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,975 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:07,984 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:07,991 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:07],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:08,002 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:08],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:08,008 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:08],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:08,012 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:08],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:08,020 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:08],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:08,025 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:08],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:08,029 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:08],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:06:18,609 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:06:18,618 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:18,625 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:18,629 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:06:18,635 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:06:18,652 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:06:18,657 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:18],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:06:22,695 INFO [http-nio-8080-exec-10] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:22],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:06:22,704 INFO [http-nio-8080-exec-10] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:22],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:36,535 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:36],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:06:36,539 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:36],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:06:51,478 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:51],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:06:51,483 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:06:51],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,187 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:07:13,193 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,214 INFO [http-nio-8080-exec-2] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.updateHeader].
+2022-11-12 15:07:13,312 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:07:13,315 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,365 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 15:07:13,373 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 15:07:13,390 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,395 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,399 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,404 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,407 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,413 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,418 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,422 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,429 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,436 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,442 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,446 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,450 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,453 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,457 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,460 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,463 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,466 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:07:13,468 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:07:13,471 INFO [http-nio-8080-exec-5] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:07:13],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:12:33,484 INFO [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:12:33,705 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-11-12 15:12:33,725 INFO [SpringContextShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-11-12 15:12:55,512 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:55] Starting CommunityLjnApplication on lideMacBook-Pro.local with PID 43098 (/Users/li/Downloads/community-ljn/target/classes started by li in /Users/li/Downloads/community-ljn)
+2022-11-12 15:12:55,514 INFO [restartedMain] c.l.c.CommunityLjnApplication [SpringApplication.java:655] The following profiles are active: develop
+2022-11-12 15:12:55,556 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 15:12:55,557 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 15:12:56,141 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:249] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-12 15:12:56,144 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-12 15:12:56,175 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2022-11-12 15:12:56,500 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-12 15:12:56,893 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:92] Tomcat initialized with port(s): 8080 (http)
+2022-11-12 15:12:56,900 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:12:56,901 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-12 15:12:56,901 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-11-12 15:12:56,959 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-12 15:12:56,959 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1402 ms
+2022-11-12 15:12:57,829 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 15:12:57,901 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2022-11-12 15:12:58,209 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2022-11-12 15:12:58,238 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-12 15:12:58,267 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-11-12 15:12:58,281 INFO [restartedMain] c.l.c.CommunityLjnApplication [StartupInfoLogger.java:61] Started CommunityLjnApplication in 3.07 seconds (JVM running for 3.552)
+2022-11-12 15:13:07,667 INFO [http-nio-8080-exec-1] o.a.t.u.h.p.Cookie [DirectJDKLog.java:173] A cookie header was received [1665405107] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2022-11-12 15:13:07,682 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 15:13:07,683 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-11-12 15:13:07,717 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 34 ms
+2022-11-12 15:13:07,757 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:07],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:07,987 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [EpollProvider.java:68] Starting without optional epoll library
+2022-11-12 15:13:07,995 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [KqueueProvider.java:70] Starting without optional kqueue library
+2022-11-12 15:13:08,351 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:08],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:08,396 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:08],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:08,404 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:08],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:13:08,417 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:08],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:13:08,457 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:08],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:13:08,461 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:08],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:13:12,057 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:12,064 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:12],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:12,092 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:12],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:12,097 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:12],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:14,529 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:14,534 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:14,537 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:14,540 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:13:14,544 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:13:14,551 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:13:14,555 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:14],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:13:17,924 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:17],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:17,933 INFO [http-nio-8080-exec-7] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:17],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:32,573 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:32],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:32,579 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:32],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:32,591 INFO [http-nio-8080-exec-3] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:32],访问了[com.ljn.communityljn.service.UserService.updateHeader].
+2022-11-12 15:13:32,631 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-11-12 15:13:32,830 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-11-12 15:13:32,916 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:32],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:13:32,920 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:32],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:32,963 INFO [http-nio-8080-exec-4] c.l.c.s.UserService [UserService.java:223] 用户信息发生了修改或是用户信息为空
+2022-11-12 15:13:32,994 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:32],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 15:13:33,024 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 15:13:33,040 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,043 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,049 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,052 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,056 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,061 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,064 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,067 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,071 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,074 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,077 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,080 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,083 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,089 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,093 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,098 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,101 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,104 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:13:33,108 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:13:33,110 INFO [http-nio-8080-exec-4] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:13:33],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:30,542 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:30,652 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:30,685 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:30,690 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:22:30,696 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:22:30,707 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:22:30,727 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:30],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:22:36,697 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:36],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:36,717 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:36],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:36,869 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:36],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:36,873 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:36],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:22:36,878 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:36],访问了[com.ljn.communityljn.service.FollowService.findFollowers].
+2022-11-12 15:22:38,452 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:38],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:38,458 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:38,464 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:38],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:38,471 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:38],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:22:38,474 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:38],访问了[com.ljn.communityljn.service.FollowService.findFollowees].
+2022-11-12 15:22:40,169 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:40,174 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:40,180 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:40,184 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.LikeService.findUserLikeCount].
+2022-11-12 15:22:40,192 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.FollowService.findFolloweeCount].
+2022-11-12 15:22:40,196 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.FollowService.findFollowerCount].
+2022-11-12 15:22:40,200 INFO [http-nio-8080-exec-8] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:40],访问了[com.ljn.communityljn.service.FollowService.hasFollowed].
+2022-11-12 15:22:41,519 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:41,525 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,530 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 15:22:41,566 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 15:22:41,583 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,588 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,596 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,599 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,602 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,606 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,610 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,613 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,617 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,620 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,623 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,627 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,631 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,635 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,646 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,653 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,657 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,662 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:41,667 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:41,671 INFO [http-nio-8080-exec-6] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:41],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:22:43,980 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:43],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:43,988 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:43],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:22:44,009 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:44],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:22:44,014 INFO [http-nio-8080-exec-1] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:22:44],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:30,928 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:30],访问了[com.ljn.communityljn.service.UserService.findLoginTicket].
+2022-11-12 15:25:30,938 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:30],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:30,954 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:30],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPostRows].
+2022-11-12 15:25:30,976 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:30],访问了[com.ljn.communityljn.service.DiscussPostService.findDiscussPosts].
+2022-11-12 15:25:30,997 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:30],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,003 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,008 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,013 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,017 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,023 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,033 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,037 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,041 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,044 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,048 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,051 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,055 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,058 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,060 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,062 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,064 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,066 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
+2022-11-12 15:25:31,069 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.UserService.findUserById].
+2022-11-12 15:25:31,072 INFO [http-nio-8080-exec-9] c.l.c.a.ServiceLogAspect [ServiceLogAspect.java:43] 用户[0:0:0:0:0:0:0:1],在[2022-11-12 15:25:31],访问了[com.ljn.communityljn.service.LikeService.findEntityLikeCount].
