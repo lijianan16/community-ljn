@@ -1,9 +1,12 @@
 package com.ljn.communityljn.controller;
 
+import com.ljn.communityljn.entity.Event;
 import com.ljn.communityljn.entity.Page;
 import com.ljn.communityljn.entity.User;
+import com.ljn.communityljn.event.EventProducer;
 import com.ljn.communityljn.service.FollowService;
 import com.ljn.communityljn.service.UserService;
+import com.ljn.communityljn.utils.CommunityConstant;
 import com.ljn.communityljn.utils.CommunityUtil;
 import com.ljn.communityljn.utils.HostHolder;
 import com.ljn.communityljn.utils.RedisKeyUtil;
@@ -29,7 +32,7 @@ import static com.ljn.communityljn.utils.CommunityConstant.ENTITY_TYPE_USER;
  * 名称：FollowController
  */
 @Controller
-public class FollowController {
+public class FollowController implements CommunityConstant {
 
     @Autowired
     FollowService followService;
@@ -43,6 +46,9 @@ public class FollowController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private EventProducer eventProducer;
+
 
     @RequestMapping(path = "/follow",method = RequestMethod.POST)
     @ResponseBody
@@ -50,6 +56,14 @@ public class FollowController {
         User user = hostHolder.getUser();
 
         followService.follow(user.getId(),entityType,entityId);
+        // 触发关注事件
+        Event event = new Event()
+                .setTopic(TOPIC_FOLLOW)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(entityType)
+                .setEntityId(entityId)
+                .setEntityUserId(entityId);
+        eventProducer.fireEvent(event);
 
         return CommunityUtil.getJSONString(0,"已关注！");
 

@@ -1,6 +1,11 @@
 package com.ljn.communityljn.entity;
 
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldType;
+
 import java.util.Date;
 
 /**
@@ -13,18 +18,36 @@ import java.util.Date;
 
 
 import java.util.Date;
-
-public class DiscussPost {
-
+//es做映射和数据库，shard分片，replicas副本
+@Document(indexName = "discusspost", type = "_doc", shards = 6, replicas = 3)public class DiscussPost {
+    @Id
     private int id;
+
+    @Field(type = FieldType.Integer)
     private int userId;
+
+    // 互联网校招
+    @Field(type = FieldType.Text, analyzer = "ik_max_word", searchAnalyzer = "ik_smart")
     private String title;
+    //存储时用analyzer = "ik_max_word"，搜索时用searchAnalyzer = "ik_smart"
+    @Field(type = FieldType.Text, analyzer = "ik_max_word", searchAnalyzer = "ik_smart")
     private String content;
+
+    @Field(type = FieldType.Integer)
     private int type;
+
+    @Field(type = FieldType.Integer)
     private int status;
+
+    @Field(type = FieldType.Date)
     private Date createTime;
+
+    @Field(type = FieldType.Integer)
     private int commentCount;
+
+    @Field(type = FieldType.Double)
     private double score;
+
 
     public int getId() {
         return id;
