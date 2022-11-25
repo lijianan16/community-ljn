@@ -22,8 +22,8 @@ import java.util.Date;
  * 描述 ：
  * 名称：ServiceLogAspect
  */
-@Component
-@Aspect
+//@Component
+//@Aspect
 public class ServiceLogAspect {
     private static final Logger logger = LoggerFactory.getLogger(ServiceLogAspect.class);
 

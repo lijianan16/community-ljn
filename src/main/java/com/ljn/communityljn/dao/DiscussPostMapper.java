@@ -17,7 +17,7 @@ import java.util.List;
 @Mapper
 public interface DiscussPostMapper {
 
-    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit);
+    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit,int orderMode);
 
     List<DiscussPost> selectDiscussPostsByType(int offset, int limit, int orderMode,int type ,int filter);
 
@@ -50,6 +50,8 @@ public interface DiscussPostMapper {
     int updateAcceptId(int id, int acceptId);
 
     int updateUpdateTime(int id, Date updateTime);
+
+
 
 }
 

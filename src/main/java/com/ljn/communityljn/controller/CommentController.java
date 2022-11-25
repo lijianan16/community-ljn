@@ -11,10 +11,12 @@ import com.ljn.communityljn.service.DiscussPostService;
 import com.ljn.communityljn.service.ElasticsearchService;
 import com.ljn.communityljn.utils.CommunityConstant;
 import com.ljn.communityljn.utils.HostHolder;
+import com.ljn.communityljn.utils.RedisKeyUtil;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -50,6 +52,9 @@ public class CommentController implements CommunityConstant {
     @Autowired
     private ElasticsearchService elasticsearchService;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
 
     @RequestMapping(path = "/add/{discussPostId}", method = RequestMethod.POST)
     public String addComment(@PathVariable("discussPostId") int discussPostId, Comment comment) {
@@ -82,6 +87,10 @@ public class CommentController implements CommunityConstant {
                     .setEntityType(ENTITY_TYPE_POST)
                     .setEntityId(discussPostId);
         eventProducer.fireEvent(event);
+
+        //计算帖子分数
+        String redisKey = RedisKeyUtil.getPostScoreKey();
+        redisTemplate.opsForSet().add(redisKey,discussPostId);
 
         return "redirect:/discuss/detail/" + discussPostId;
     }
